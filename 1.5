@@ -1,0 +1,16 @@
+package controller;
+
+public class Controller {
+	public Controller(){
+		super();
+	}
+	public double somatoria(int numero) {
+		
+		if(numero < 2) {
+			return 1;
+		}
+		else {
+			return (1 / (double) numero) + somatoria(numero - 1);
+		}
+	}
+}
