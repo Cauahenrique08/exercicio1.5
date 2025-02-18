@@ -1,0 +1,11 @@
+package view;
+import controller.Controller;
+
+public class Somatoria {
+	public static void main(String [] args) {
+		Controller soma = new Controller();
+		int numero = 6;
+		double resultado = soma.somatoria(numero);
+		System.out.println(resultado);
+	}
+}
